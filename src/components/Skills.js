@@ -3,8 +3,6 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -39,56 +37,56 @@ export const Skills = () => {
                          For Comprehensive details of my skill set , please refer to my resume &#128151; </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>Full-Stack Development</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>Backend Development</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Skill Level" />
                                 <h5>Cloud Development</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>Java Development</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>C++ Development</h5>
                             </div>
                             
                             <div className="skill-item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Skill Level" />
                                 <h5>Frontend Development</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Skill Level" />
                                 <h5>System Design</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>Data Structures and Algorithms</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>Networking</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Skill Level" />
                                 <h5>Operating Systems</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Skill Level" />
                                 <h5>CI/CD</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill Level" />
                                 <h5>Git</h5>
                             </div>
                             <div className="skill-item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Skill Level" />
                                 <h5>Design Patterns</h5>
                             </div>
                         </Carousel>
@@ -96,7 +94,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Skill Level" />
     </section>
   )
 }
