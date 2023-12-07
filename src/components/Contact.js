@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Alert from 'react-bootstrap/Alert';
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -75,14 +76,22 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <Col><button type="submit"><span>{buttonText}</span></button></Col>
                     </Col>
                     {
-                      status.message &&
-                      <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
+                      status.message && true &&
+                      <Col size={12} sm={12}>
+                        <div className="msg" >
+                        <Alert variant={status.success === false ? "danger" : "success"} dismissible>
+                          <p>
+                            {status.message}!
+                          </p>
+                        </Alert>
+                        
+                        </div>
                       </Col>
                     }
+                    
                   </Row>
                 </form>
               </div>}
